@@ -9,7 +9,8 @@ jobs:
 
   build-and-push-image-bot:
     runs-on: ubuntu-latest
-    
+    permissions: write-all
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
