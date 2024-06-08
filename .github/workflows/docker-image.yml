@@ -31,5 +31,5 @@ jobs:
 
       - name: Tag and push bot image
         run: |
-          docker tag nordvpn-docker:latest ghcr.io/${{ github.repository_owner }}/nordvpn-docker:${{ github.sha }}
-          docker push ghcr.io/${{ github.repository_owner }}/nordvpn-docker:${{ github.sha }}
+          docker tag nordvpn-docker:latest ghcr.io/${{ github.repository_owner }}/nordvpn-docker:latest
+          docker push ghcr.io/${{ github.repository_owner }}/nordvpn-docker:latest
